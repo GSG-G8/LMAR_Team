@@ -84,3 +84,6 @@ a {
     font-family: 'Slabo 27px', serif;
 }
 
+form{
+ display: flex;
+}
