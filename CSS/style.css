@@ -1,0 +1,19 @@
+
+body { 
+
+}
+.our_services{
+   
+    width: 75%;
+ 
+}
+.our_services .container{
+    display: flex;
+
+}
+.our_services .container img{
+    width: 25%;
+    height: 25%;
+  
+
+}
