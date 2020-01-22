@@ -17,7 +17,7 @@ a {
   margin: auto;
 }
 
-.header {
+#header {
   background: url("../images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg")
     no-repeat center center;
   height: 100vh;
@@ -43,12 +43,13 @@ a {
 .logo h1 {
   font-size: 16px;
   letter-spacing: 0.1rem;
+  border: 2px solid #000;
+  color: #000;
 }
-
 .logo_span {
-  background-color: #4a4a4a;
+  background-color: #000;
   font-size: 32px;
-  padding: 1px;
+  padding: 2px 1px;
   margin-right: 5px;
   color: #eee;
 }
@@ -87,13 +88,13 @@ form {
   display: flex;
 }
 
-.our_services {
+#our_services {
   width: 75%;
 }
-.our_services .container {
+#our_services .container {
   display: flex;
 }
-.our_services .container img {
+#our_services .container img {
   width: 25%;
   height: 25%;
 }
