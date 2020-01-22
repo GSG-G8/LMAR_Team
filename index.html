@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>LMAR Portfolio</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="CSS/fontawesome/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link href="CSS/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -16,9 +16,12 @@
         <div class="overlay">
             <nav class="nav_bar">
                 <div class="container">
-                    <div class="logo">
+                    <div class="logo" id="logo">
                         <h1 class="logo_Heading"><span class="logo_span">L</span>MAR</h1>
                     </div>
+
+                    <label for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle" />
 
                     <div class="nav_menu">
                         <ul>
@@ -44,7 +47,6 @@
                 </div>
             </div>
         </div>
-
     </header>
 
     <section id="our_services">
@@ -58,89 +60,92 @@
             </div>
             <div class="all-services">
                 <ul>
-                    <li><i class="fas fa-magic"></i>Design web pages from scratch. </li>
-                    <li><i class="fas fa-tractor"></i>Redisgn and maintain existing web site.</li>
-                    <li><i class="fas fa-bug"></i>Make and debugging javaScripts code.</li>
-                    <li><i class="fab fa-accessible-icon"></i>Focus on responsive and accessibility for pages.</li>
+                    <li><i class="fas fa-magic"></i>Design web pages from scratch.</li>
+                    <li>
+                        <i class="fas fa-tractor"></i>Redisgn and maintain existing web
+                        site.
+                    </li>
+                    <li>
+                        <i class="fas fa-bug"></i>Make and debugging javaScripts code.
+                    </li>
+                    <li>
+                        <i class="fab fa-accessible-icon"></i>Focus on responsive and
+                        accessibility for pages.
+                    </li>
                 </ul>
             </div>
         </div>
-        
     </section>
-
 
     <section id="our_team">
         <div class="container">
             <h2>Our <span>Team</span></h2>
-        <div class="all-cards">
-            <div class="card">
-                <div class="photo photo1" ></div>
-                <div class="info">
-                    <h4>Lina Jamal</h4>
-                    <span>Founder</span>
+            <div class="all-cards">
+                <div class="card">
+                    <div class="photo photo1"></div>
+                    <div class="info">
+                        <h4>Lina Jamal</h4>
+                        <span>Founder</span>
+                    </div>
+                    <div class="concat">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
                 </div>
-                <div class="concat">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                <div class="card">
+                    <div class="photo photo2"></div>
+                    <div class="info">
+                        <h4>Rehab Ali</h4>
+                        <span>UX/UI</span>
+                    </div>
+                    <div class="concat">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo photo3"></div>
+                    <div class="info">
+                        <h4>Muhammed Flaifel</h4>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="concat">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo photo4"></div>
+                    <div class="info">
+                        <h4>Muhammed Abdelhadi</h4>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="concat">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="photo photo2"></div>
-                <div class="info">
-                    <h4>Rehab Ali</h4>
-                    <span>UX/UI</span>
-                </div>
-                <div class="concat">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                    
-                </div>
-            </div>
-            <div class="card">
-                <div class="photo photo3"></div>
-                <div class="info">
-                    <h4>Muhammed Flaifel</h4>
-                    <span>Web Developer</span>
-                </div>
-                <div class="concat">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="photo photo4"></div>
-                <div class="info">
-                    <h4>Muhammed Abdelhadi</h4>
-                    <span>Web Developer</span>
-                </div>
-                <div class="concat">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
 
     <section id="contact">
         <form action="">
             <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="Enter your E-mail">
+            <input type="email" id="email" placeholder="Enter your E-mail" />
             <label for="message">message</label>
-            <input type="text-area" name="message" id="message" placeholder="Enter your message">
-            <input type="Submit" name="Submit" id="Submit">
+            <input type="text-area" name="message" id="message" placeholder="Enter your message" />
+            <input type="Submit" name="Submit" id="Submit" />
         </form>
-
     </section>
 
     <footer id="footer">
         Footer
     </footer>
-
 </body>
 
 </html>
