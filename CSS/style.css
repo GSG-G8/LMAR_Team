@@ -33,6 +33,7 @@ h2 {
   letter-spacing: 2px;
   margin-bottom: 50px;
   text-align: center;
+  width: 100%;
 }
 
 h2 span {
@@ -143,8 +144,8 @@ h2 span {
 .content a:hover {
   background-color: #926b00;
 }
-#contact .container {
-  background-color: #eee;
+#contact {
+  background-color: #fff;
 }
 
 /* Start About us */
@@ -156,10 +157,10 @@ h2 span {
 
 #our_services .container .office-img {
   width: 45%;
-  background: url("../images/office-staff-typing-on-laptop.jpg") no-repeat center center;
+  background: url("../images/office-staff-typing-on-laptop.jpg") no-repeat
+    center center;
   background-size: cover;
   position: relative;
-  
 }
 
 #our_services .container .office-img .overlay {
@@ -194,14 +195,14 @@ h2 span {
   align-self: center;
 }
 
-#our_services .container .all-services  ul li {
+#our_services .container .all-services ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
   font-size: 20px;
 }
 
-#our_services .container .all-services  ul li i {
+#our_services .container .all-services ul li i {
   color: #b58501;
   font-size: 30px;
   margin-right: 20px;
@@ -280,7 +281,6 @@ h2 span {
 }
 /* End our-team */
 
-<<<<<<< HEAD
 .form {
   display: flex;
   width: 30%;
@@ -311,9 +311,7 @@ h2 span {
   padding-right: 20px;
   color: #fff;
 }
-#our_services {
-  width: 75%;
-}
+
 #our_services .container {
   display: flex;
 }
@@ -331,6 +329,3 @@ h2 span {
 #footer p {
   color: #eee;
 }
-=======
-
->>>>>>> 2b8b3ca9fedf7aa47a400abba23b3a49caa78821
