@@ -142,6 +142,67 @@ h2 span {
   background-color: #926b00;
 }
 
+/* Start About us */
+#our_services .container {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+#our_services .container .office-img {
+  width: 45%;
+  background: url("../images/office-staff-typing-on-laptop.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  
+}
+
+#our_services .container .office-img .overlay {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #b58501;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#our_services .container .office-img .overlay h3 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+
+#our_services .container .office-img .overlay i {
+  color: #fff;
+  font-size: 20px;
+}
+
+#our_services .container .all-services {
+  width: 45%;
+  display: flex;
+  align-self: center;
+}
+
+#our_services .container .all-services  ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+#our_services .container .all-services  ul li i {
+  color: #b58501;
+  font-size: 30px;
+  margin-right: 20px;
+}
+/* End About us */
+
 /* satrt our-team */
 #our_team {
   background: #f2f2f2;
@@ -214,17 +275,4 @@ h2 span {
 }
 /* End our-team */
 
-form {
-  display: flex;
-}
 
-#our_services {
-  width: 75%;
-}
-#our_services .container {
-  display: flex;
-}
-#our_services .container img {
-  width: 25%;
-  height: 25%;
-}
