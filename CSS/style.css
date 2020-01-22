@@ -442,3 +442,13 @@ h2 span {
   /* End toggle */
 }
 
+#footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #926b00;
+  text-align: center;
+}
+
+#footer p {
+  color: #eee;
+}
