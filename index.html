@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,16 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="header">
+    <header id="header">
         <div class="overlay">
             <nav class="nav_bar">
                 <div class="container">
                     <div class="logo">
                         <h1 class="logo_Heading"><span class="logo_span">L</span>MAR</h1>
                     </div>
-    
+
                     <div class="nav_menu">
                         <ul>
                             <li>
@@ -31,8 +33,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>      
-            </nav> 
+                </div>
+            </nav>
 
             <div class="container">
                 <div class="content">
@@ -46,7 +48,19 @@
     </header>
 
     <section id="our_services">
-        Our Services
+        <div class="container">
+            <img src="img/service.jpg" alt="coding sevice">
+            <div class="service_paragraph">
+
+                <ul>
+                    <li>Design web pages from scratch. </li>
+                    <li>Redisgn and maintain existing web site.</li>
+                    <li>make and debugging javaScripts code.</li>
+                    <li>focus on responsive and accessibility for pages</li>
+                </ul>
+            </div>
+        </div>
+
     </section>
 
     <section id="our_team">
@@ -54,14 +68,14 @@
     </section>
 
     <section id="contact">
-        <form  action="">
-            <label for="email" >E-mail</label>
+        <form action="">
+            <label for="email">E-mail</label>
             <input type="email" id="email" placeholder="Enter your E-mail">
-            <label for="message">message</label>  
+            <label for="message">message</label>
             <input type="text-area" name="message" id="message" placeholder="Enter your message">
             <input type="Submit" name="Submit" id="Submit">
         </form>
-        
+
     </section>
 
     <footer id="footer">
@@ -69,4 +83,5 @@
     </footer>
 
 </body>
+
 </html>
