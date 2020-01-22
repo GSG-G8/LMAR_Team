@@ -22,6 +22,22 @@ ul {
   list-style-type: none;
 }
 
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h2 span {
+  color: #b58501;
+  border-bottom: 2px solid #b58501;
+}
+
 #header {
   background: url("../images/working-at-night.jpg") no-repeat center center;
   height: 100vh;
@@ -125,6 +141,78 @@ ul {
 .content a:hover {
   background-color: #926b00;
 }
+
+/* satrt our-team */
+#our_team {
+  background: #f2f2f2;
+}
+
+#our_team .all-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#our_team .all-cards .card {
+  width: 22%;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#our_team .all-cards .card:hover {
+  transform: scale(1.1,1.1);
+  box-shadow: 1px 1px 28px 5px #a9a9a9;
+}
+
+#our_team .all-cards .card .photo {
+  
+  height: 200px;
+}
+
+#our_team .all-cards .card .photo1 {
+  background: url("../images/blank-female-profile.png") no-repeat center center;
+  background-size: cover;
+}
+
+#our_team .all-cards .card .photo2 {
+  background: url("../images/blank-female-profile.png") no-repeat center center;
+  background-size: cover;
+}
+
+#our_team .all-cards .card .photo3 {
+  background: url("../images/MG_2157.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+#our_team .all-cards .card .photo4 {
+  background: url("../images/Male-Profile_Image-PNG-715x715.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#our_team .all-cards .card .concat {
+  margin-bottom: 20px;
+}
+
+#our_team .all-cards .card .concat a {
+  margin-left: 10px;
+}
+
+#our_team .all-cards .card .concat a i {
+  font-size: 20px;
+  color: #b58501;
+}
+
+#our_team .all-cards .card .info {
+  padding: 10px;
+}
+
+#our_team .all-cards .card .info span {
+  color: #b58501;
+}
+/* End our-team */
 
 form {
   display: flex;
