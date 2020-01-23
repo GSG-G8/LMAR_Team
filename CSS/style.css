@@ -1,15 +1,9 @@
 * {
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: #4a4a4a;
   font-family: "Slabo 27px", serif;
-}
-section {
-  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -26,6 +20,7 @@ ul {
 
 section {
   padding: 50px 0 80px 0;
+  margin: 0px;
 }
 
 h2 {
@@ -42,14 +37,10 @@ h2 span {
 }
 
 #header {
-  background: url("../images/working-at-night.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/working-at-night.jpg") no-repeat center center;
   height: 100vh;
   background-size: cover;
-}
-
-.overlay {
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .nav_bar {
@@ -297,26 +288,29 @@ h2 span {
   margin-top: 10px;
   flex-direction: column;
 }
+.form div {
+  margin-top: 15px;
+}
+
 .form input {
   width: 90%;
   padding: 5px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .form textarea {
-  margin-top: 10px;
+  margin-top: 8px;
   padding: 5px;
   width: 90%;
 }
-.form label {
-  margin: 8px;
-}
+
 .button_1 {
   display: block;
-  width: 50%;
+  width: 200px;
   height: 38px;
   background: #926b00;
   padding: 0 20px;
   color: #fff;
+  margin: 0 auto;
 }
 /* Start Media Query */
 @media screen and (max-width: 992px) {
