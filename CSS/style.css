@@ -293,7 +293,7 @@ h2 span {
 
 .form {
   display: flex;
-  width: 30%;
+  width: 100%;
   margin-top: 10px;
   flex-direction: column;
 }
@@ -308,20 +308,16 @@ h2 span {
   width: 90%;
 }
 .form label {
-  margin: 6px;
-}
-.form button {
-  display: block;
-  width: 50%;
+  margin: 8px;
 }
 .button_1 {
+  display: block;
+  width: 50%;
   height: 38px;
   background: #926b00;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   color: #fff;
 }
-
 /* Start Media Query */
 @media screen and (max-width: 992px) {
   #our_services .container {
@@ -437,8 +433,6 @@ h2 span {
 }
 
 @media screen and (max-width: 600px) {
-  
-
   /* End toggle */
 }
 
