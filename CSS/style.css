@@ -240,7 +240,7 @@ h2 span {
 }
 
 #our_team .all-cards .card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.1);
   box-shadow: 1px 1px 28px 5px #a9a9a9;
 }
 
