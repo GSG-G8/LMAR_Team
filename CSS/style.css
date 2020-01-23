@@ -25,7 +25,7 @@ ul {
 }
 
 section {
-  padding: 40px 0;
+  padding: 50px 0 80px 0;
 }
 
 h2 {
@@ -61,6 +61,16 @@ h2 span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav_bar .container label {
+  font-size: 26px;
+  float: left;
+  display: none;
+}
+
+#toggle {
+  display: none;
 }
 
 .logo h1 {
@@ -312,13 +322,126 @@ h2 span {
   color: #fff;
 }
 
-#our_services .container {
-  display: flex;
+/* Start Media Query */
+@media screen and (max-width: 992px) {
+  #our_services .container {
+    height: 40vh;
+  }
+
+  #our_services .container .office-img .overlay h3 {
+    margin-top: 40px;
+    line-height: 28px;
+  }
+
+  #our_services .container .all-services ul li {
+    font-size: 18px;
+  }
+
+  #our_services .container .all-services ul li i {
+    font-size: 28px;
+  }
+
+  #our_team .all-cards .card {
+    width: 45%;
+    margin-bottom: 70px;
+  }
 }
-#our_services .container img {
-  width: 25%;
-  height: 25%;
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #header {
+    height: 80vh;
+  }
+
+  #header .overlay {
+    height: 80vh;
+  }
 }
+
+@media (max-width: 767px) {
+  #header {
+    height: 70vh;
+  }
+
+  #header .overlay {
+    height: 70vh;
+  }
+
+  #header .content {
+    height: 40%;
+  }
+
+  #header .content h1 {
+    font-size: 28px;
+  }
+
+  #our_services .container .office-img {
+    display: none;
+  }
+
+  #our_services .container .all-services {
+    width: 100%;
+  }
+
+  #our_services .container .all-services ul li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav_bar .container label {
+    display: block;
+    cursor: pointer;
+    margin-top: 4px;
+    color: #4a4a4a;
+  }
+
+  .nav_bar .container .nav_menu {
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    color: #4a4a4a;
+  }
+
+  .nav_bar .container .nav_menu ul li {
+    display: block;
+    border-bottom: 1px solid #b58501;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  #toggle:checked + .nav_menu {
+    display: block;
+    padding-left: 20px;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  #our_services .container .all-services ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 599px) {
+  h2 {
+    margin-bottom: 70px;
+  }
+
+  #our_team .all-cards .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+
+  /* End toggle */
+}
+
 #footer {
   padding: 20px;
   margin-top: 20px;
